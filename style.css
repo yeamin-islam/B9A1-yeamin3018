@@ -82,9 +82,9 @@ body {
 .welcome {
   position: relative;
   height: 600px;
-  background-image: url(/resources/Group\ 70.png),
+  background-image: url(resources/Group\ 70.png),
     linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
-    url(/resources/Vectorrr.png);
+    url(resources/Vectorrr.png);
   background-repeat: no-repeat;
   background-position: 850px, right, right;
   margin: 120px auto;
