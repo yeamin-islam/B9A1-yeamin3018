@@ -205,7 +205,7 @@ body {
 
 /* Holiday Sale Section Style */
 .title-container-sale {
-  width: 1080px;
+  width: 1068px;
   text-align: center;
   margin: 120px auto 64px;
 }
@@ -235,17 +235,26 @@ body {
   line-height: 32px;
   margin-bottom: 64px;
 }
-
-.img-discount {
-}
-
 .woman-img-container {
-  width: 1320px;
-  border: 1px solid red;
-  float: left;
+  height: 433px;
+  position: relative;
+  text-align: right;
 }
-.img-woman {
-  margin-right: 20px;
+.img-discount {
+  position: absolute;
+  right: 280px;
+  top: 70px;
+}
+.img-women {
+  position: absolute;
+  right: 0px;
+}
+.gift-container {
+  position: relative;
+}
+.img-giftbox {
+  position: absolute;
+  top: -450px;
 }
 
 /* Portfolio Style */
@@ -254,7 +263,7 @@ body {
   font-family: Inter;
   font-size: 24px;
   font-weight: 500;
-  margin-bottom: 16px;
+  margin: 120px 0px 16px;
 }
 .title-port {
   color: #070211;
@@ -263,6 +272,7 @@ body {
   font-weight: 900;
   text-transform: capitalize;
   margin-bottom: 22px;
+  margin-top: 0px;
 }
 .txt-port {
   width: 896px;
