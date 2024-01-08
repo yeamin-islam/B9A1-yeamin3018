@@ -389,7 +389,7 @@ hr {
 .logo {
   height: 64px;
   width: 64px;
-  padding-left: 24px;
+  padding: 48px 12px;
 }
 .footer-container {
   display: flex;
